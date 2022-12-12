@@ -80,7 +80,7 @@ use Neodynamic\SDK\Web\WebClientPrint;
 				</div>
 			</div>
 			<div id="text-center">
-				<a href="WebClientPrint.php" class="btn btn_primary">Хэвлэх</a>
+				<a href="PrintPdf.php" class="btn btn_primary">Хэвлэх</a>
 			</div>
 			<!-- Table Panel -->
 		</div>

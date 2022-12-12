@@ -45,8 +45,8 @@ $rdata= json_decode($repeating_data);
 						<label for="" class="control-label">Хуваарийн төрөл</label>
 						<select name="schedule_type" id="" class="custom-select">
 							<option value="1" <?php echo isset($schedule_type) && $schedule_type == 1 ? 'selected' : ''  ?>>Анги</option>
-							<option value="2" <?php echo isset($schedule_type) && $schedule_type == 2 ? 'selected' : ''  ?>>Уулзалт</option>
-							<option value="3" <?php echo isset($schedule_type) && $schedule_type == 3 ? 'selected' : ''  ?>>Бусад</option>
+							<option value="2" <?php echo isset($schedule_type) && $schedule_type == 2 ? 'selected' : ''  ?>>Онлайн хичээл</option>
+							<option value="3" <?php echo isset($schedule_type) && $schedule_type == 3 ? 'selected' : ''  ?>>Бие даалтын цаг</option>
 						</select>
 					</div>
 					<div class="form-group">

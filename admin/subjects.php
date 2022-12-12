@@ -1,4 +1,7 @@
-<?php include('db_connect.php');?>
+<?php include('db_connect.php');
+include('WebClientPrint.php');
+use Neodynamic\SDK\Web\WebClientPrint;
+?>
 
 <div class="container-fluid">
 	
@@ -75,6 +78,9 @@
 						</table>
 					</div>
 				</div>
+			</div>
+			<div id="text-center">
+				<a href="WebClientPrint.php" class="btn btn_primary">Хэвлэх</a>
 			</div>
 			<!-- Table Panel -->
 		</div>
